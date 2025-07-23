@@ -1,0 +1,345 @@
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+div style{
+
+   background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.logo {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(98%) saturate(750%) hue-rotate(180deg);
+}
+
+
+.card-body h5 {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-body a.btn {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+     
+.bolum {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .kutu {
+      width: 48%;
+    }
+
+    .kutu img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+
+
+
+    h3 {
+      font-size: 18px;
+      color: #0a2d5e;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+
+.carousel-item img {
+  height: 300px;
+  width :auto;
+  object-fit: cover;
+  
+}
+
+
+
+full-width-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+      }
+
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.section-title span {
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  background-color: #8bd5f7;
+  border-radius: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.left {
+  flex: 1 1 65%;
+  min-width: 300px;
+}
+
+.box {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.box .title-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .title-line p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.box .desc {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Sağ taraf */
+.right {
+  flex: 1 1 30%;
+  min-width: 280px;
+}
+
+.subscribe {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.subscribe p {
+  margin: 0 0 10px 0;
+}
+
+.subscribe input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  outline: none;
+}
+
+.subscribe .input-line {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe .arrow {
+  font-size: 20px;
+  color: blue;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subscribe .small-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.carousel-inner {
+  padding: 5px;
+}
+
+.carousel-item {
+  padding: 5px 0;
+}
+
+.carousel-item div {
+  font-size: 11px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 6px;
+  height: 6px;
+  margin: 2px;
+  background-color: gray;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: lightgray;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h5, h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+input, textarea {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
